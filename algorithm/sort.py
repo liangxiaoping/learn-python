@@ -62,7 +62,7 @@ def quickSort(seq, low, high):
     return seq
 
 def quickSort2(seq):
-    """Quick sort using list comprehensions"""
+    """Quick sort using list comprehensions(列表推导式)"""
     if seq == []:
         return []
     else:
