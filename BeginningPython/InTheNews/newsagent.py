@@ -166,7 +166,7 @@ def runDefaultSetup():
 
     # An NNTPSource that retrieves news from comp.lang.python.announce:
     clpa_server = 'newsfeed.x-privat.org'
-    clpa_group = 'it.sport.calcio.milan'
+    clpa_group = 'comp.lang.python.announce'
     clpa_window = 1
     clpa = NNTPSource(clpa_server, clpa_group, clpa_window)
 
